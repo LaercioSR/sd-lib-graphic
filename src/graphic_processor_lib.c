@@ -1,4 +1,4 @@
-#include "graphic_processor.h"
+#include "graphic_processor_lib.h"
 
 int
 set_sprite(int registrador, int x, int y, int offset, int activation_bit) {}
@@ -11,6 +11,3 @@ set_background_color(int R, int G, int B) {}
 
 void
 increase_coordinate(Sprite* sp, int mirror) {}
-
-int
-collision(Sprite* sp1, Sprite* sp2) {}
